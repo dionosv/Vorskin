@@ -17,3 +17,6 @@ The Vorskin Beauty website serves as a prototype to demonstrate the design and l
 
 ## Author
 This website was created by Dion Osvaldo Hananto. It serves as a basic prototype to showcase the design and functionality of Vorskin Beauty's online presence.
+
+## Website Link
+[Click this link to open Vorskin Website](https://vorskin.netlify.app/home.html)
