@@ -1,0 +1,13 @@
+{
+    "routes": [
+      { "src": "/home", "dest": "/home.html" },
+      { "src": "/about", "dest": "/about.html" },
+      { "src": "/checkoutnext", "dest": "/checkoutnext.html" },
+      { "src": "/product", "dest": "/product.html" },
+      { "src": "/promotions", "dest": "/promotions.html" },
+      { "src": "/save", "dest": "/save.html" },
+      { "src": "/subscribe", "dest": "/subscribe.html" },
+      { "src": "/(.*)", "dest": "/home.html" }
+    ]
+  }
+  
