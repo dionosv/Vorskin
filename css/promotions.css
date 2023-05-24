@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "InterL";
+    src: url("./font/Inter-Light.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "InterR"; 
+    src: url("./font/Inter-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: "InterEB";
+    src: url("./font/Inter-ExtraBold.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'bakbak_oneregular';
+    src: url('./font/bakbakone-regular-webfont.woff2') format('woff2'),
+         url('./font/bakbakone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+img.logo{
+    max-width: 130px;
+    
+}
+.centered {
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+.bigtxt{
+    text-align:left;
+    margin: auto;
+    font-size:3.696969vw;
+    color: #FF1C90;
+    font-family:"bakbak_oneregular",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.regtxt{
+        text-align: left;
+        font-size:1.696969vw; 
+        font-family:"InterR",BlinkMacSystemFont,'Segoe UI',sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        margin-bottom: 2vw;
+    
+}
+
+.content{
+    background-color: transparent;
+    margin:1vw;
+}
+
+img.banner{
+    width: 200px;
+    /* background-color: #FFDDE1; */
+    background-color: transparent;
+}
+
+ .btn-vorskin{
+    font-family: 'InterR';
+    margin:0 auto;
+    display:block;
+    width: 7vw;
+    height: 3vw;
+    margin-bottom: 4vw;
+    background-color:white;
+    color:rgb(255, 72, 102);
+    border: solid;
+    border-radius: 5vw;
+    border-color: rgb(255, 72, 102);
+    cursor: pointer;
+    transition: all 0.8s ease 0s;font-size: 0.6969vw;
+    font-size: 0.8969vw;
+}
+.btn-vorskin:hover{
+    background-color: rgb(255, 72, 102);
+    color: white;
+}
+
+.backbtn{
+    font-size: 1vw;
+    font-family: 'InterR';
+    margin:0 auto;
+    display:block;
+    width: 7vw;
+    height: 3vw;
+    margin-bottom: 4vw;
+    background-color:#ffffff;
+    color:rgb(255, 72, 102);
+    border: solid;
+    border-radius: 5vw;
+    border-color: rgb(255, 72, 102);
+    cursor: pointer;
+    transition: all 0.8s ease 0s;
+}
+
+.backbtn:hover{
+    background-color: rgb(255, 72, 102);
+    color: white;
+}
+
+.banner-vor{
+    background-color: #FFDDE1;
+    border-radius: 3vw;
+    height: 20vw;
+}
+
+.banner .banner-vor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+.regulartxt{
+
+    text-align: left;
+    text-decoration: line-through;
+    padding-left: 30px;
+    background-color: #FFDDE1;
+    font-size:1vw;
+    -webkit-background-clip: text;  
+    font-family:"InterR",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.vorskin{
+    font-family: 'InterEB';
+    /* background-color: #FFDDE1; */
+    background-color: transparent;
+    font-size: 3vw;
+    margin-left: 1vw;
+    margin-top:2vw
+ }
+
+.txt-vors {
+    background-color: transparent;
+}
+
+.regulartxt1{
+    text-align: left;
+    background-color: transparent;
+    margin-left: 1vw;
+    font-size:1vw;
+    -webkit-background-clip: text;  
+    font-family:"InterR",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.regulartxtbold{
+    text-decoration: line-through;
+    text-align: left;
+    background-color: transparent;
+    padding-left: 1vw;
+    font-size:2vw;
+    font-size: bold;
+    -webkit-background-clip: text;  
+    font-family:"InterR",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.regulartxtbold1{
+    text-align: left;
+    background-color: transparent;
+    margin-left: 1vw;
+    font-size:2vw;
+    -webkit-background-clip: text;  
+    font-family:"InterR",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.banner .banner-vor .left-banner{
+    width: 100%;
+    margin-top: 1vw;
+    /* background-color: #FFDDE1; */
+    background-color: transparent;
+    margin-left: 1vw;
+    /* margin-right: 10px; */
+}
+
+.banner-img{
+    width: 25%;
+    height: auto;
+    background-color: transparent;
+    /* margin-left: 2vw; */
+    /* float: right; */
+}
+
+.btn-vorskin{
+    background-color: transparent ;
+    margin-top: 1vw;
+    margin-left: 50vw;
+}
+
+.cntrbtn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.pref1{
+    background-color: #FFDDE1;
+}

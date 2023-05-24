@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./font/Inter-Regular.woff2') format('woff2'),
+        url('./font/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    font-family:'Inter';
+    padding: 15px 2%;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    background-color: #ABE700;
+}
+
+.p{
+    color: transparent;
+    text-decoration: none;
+}
+.right{
+    text-align: right;
+    background-color: transparent;
+    font-size: 0.96vw;
+
+}
+
+.left{
+    text-align: left;
+    background-color: transparent;
+    font-size: 0.96vw;
+}

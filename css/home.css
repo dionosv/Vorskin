@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "InterL";
+    src: url("./font/Inter-Light.woff") format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: "InterR"; 
+    src: url("./font/Inter-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: "InterEB";
+    src: url("./font/Inter-ExtraBold.woff") format('woff');
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+img.logo{
+    max-width: 130px;
+    
+}
+
+
+body{
+ background-color: #ffffff;   
+}
+
+
+
+.banner img{
+    height: auto;
+    border-radius: 1vw;
+    display: block;
+    margin-top:4vw;
+    margin-bottom: 2vw;
+}
+
+.center {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80%;
+}
+
+.btn {
+    height: 2.5vw;
+    width: 2.5vw;
+    margin-top: 17vw;
+    margin-left:2vw; 
+    margin-right: 2vw;
+    border: none;
+    cursor: pointer;
+}
+.btn img {
+    width: 2vw;
+    height: auto;
+}
+.banner-off img {display: none;}
+.banner-on img{display: block;}
+
+.konten1{
+    width: 60vw;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+.konten1 h1{
+    font-family: "InterEB";
+    font-size: 2vw;
+    background: linear-gradient(170deg, rgba(255,0,0,1) 0%, rgba(255,230,3,1) 85%); 
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.bagi2{
+    display: flex;
+}
+
+.bagi2 img{
+    width: 4%;
+    height: auto;
+    margin-left: 1vw;
+}
+
+
+.row{
+    display:flex;
+}
+.kotak img{
+    width: 80%;
+    height:auto;
+    border-radius: 5%;
+    transition: cubic-bezier(0.43,-1.12, 0.17, 2.29) .99s;
+    margin-top: 1vw;
+}
+.kotak img:hover{
+    position:relative;
+    transform: scale(1.25);
+}
+
+.kotak h2{
+    font-family: 'InterR';
+    font-size: 1.36969vw;
+}
+
+.kotak p{
+    font-family: 'InterL';
+    font-size: 0.6969vw;
+}
+
+
+.content{
+    background-color: #FFDDE1;
+}
+
+img.banner{
+    width: 200px;
+    background-color: #FFDDE1;
+}
+
+.backbtn{
+    font-family: 'Inter';
+    margin:0 auto;
+    display:block;
+    width: 7vw;
+    height: 2.6969vw;
+    margin-bottom: 4vw;
+    background-color:#ffffff;
+    color:rgb(255, 72, 102);
+    border: solid;
+    border-radius: 5vw;
+    border-color: rgb(255, 72, 102);
+    cursor: pointer;
+    transition: all 0.8s ease 0s;
+    font-size:0.6969vw;
+}
+
+.backbtn:hover{
+    background-color: rgb(255, 72, 102);
+    color: white;
+}
+
+.banner-vor{
+    background-color: #FFDDE1;
+    border-radius: 50px;
+    height: 20vw;
+    margin-bottom: 2vw;
+}
+
+.banner .banner-vor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.regulartxt{
+
+    text-align: left;
+    padding-left: 1vw;
+    background-color: transparent;
+    font-size:1vw;
+    font-family:"InterR"}
+
+.vorskin{
+    font-family: 'InterEB';
+    background-color: transparent;
+    font-size: 4vw;
+    padding-left: 1vw;
+ }
+
+.txt-vors {
+    background-color: transparent;
+}
+
+.regulartxt1{
+
+    text-align: left;
+    padding-left: 1vw;
+    background-color: transparent;
+    font-size:1vw;
+    font-family:"InterR"}
+
+
+.regulartxtbold1{
+    text-align: left;
+    padding-left: 1vw;
+    background-color: transparent;
+    font-size:1.5vw;
+    font-family:"InterR"}
+
+
+.banner .banner-vor .left-banner{
+    width: 100%;
+    margin-top: 1px;
+    background-color: #FFDDE1   ;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.banner-img{
+    width: 30vw;
+    background-color: transparent;
+    float: right;
+}
+

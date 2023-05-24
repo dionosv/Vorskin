@@ -1,0 +1,367 @@
+@font-face {
+    font-family: "InterL";
+    src: url("./font/Inter-Light.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "InterR"; 
+    src: url("./font/Inter-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: "InterEB";
+    src: url("./font/Inter-ExtraBold.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'bakbak_oneregular';
+    src: url('./font/bakbakone-regular-webfont.woff2') format('woff2'),
+         url('./font/bakbakone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+}
+
+body{
+    background-color: #ffffff;
+}
+img.logo{
+    max-width: 130px;
+}
+
+.alldiv{
+    margin: 5%;
+}
+
+.banner1{
+    background-color: #FFD9C0;
+    display:flex;
+    border-radius: 2vw;
+    margin-bottom: 5vw;
+}
+
+.banner1 img{
+    margin:2%;
+    background-color: transparent;
+    width:40%;
+    height:40%;
+    
+}
+.text{
+    background-color: transparent;
+    display:inline;
+    margin:6%;
+}
+
+.txtbanner1{
+    background-color: #FFD9C0;
+    font-family: "InterEB";
+    font-size: 6vw;
+    padding-top: 1vw;
+}
+.txtbanner2{
+    background-color: #FFD9C0;
+    font-family: "InterL";
+    padding-top: 0.01vw;
+    font-size: 3vw;
+
+}
+.txtbanner3{
+    background-color: #FFD9C0;
+    font-family: "InterR";
+    padding-top: 0.01vw;
+    font-size: 2vw;
+}
+.flex-banner{
+    background-color: #FFD4EA;
+    padding: 3%;
+}
+.product img{
+    width: 20vw;
+    height:auto;
+    border-radius: 2vw;
+    position: relative;
+    transition: transform .89s;
+}
+
+.product img:hover{
+    position:relative;
+    transform: scale(1.2);
+}
+
+.categories h2{
+    font-family: "InterEB";
+    font-size:100%;
+}
+.row1{
+    display: flex ;
+    justify-content:space-between;
+}
+.categories{
+    font-family: "InterR";
+    font-size: 1.6vw;
+    margin: 1vw;
+}
+
+.content{
+    float: right;
+    width: 20vw;
+    background-color: #FFD4EA;
+    padding: 2%;
+}
+.content h2{
+    font-family: "InterR";
+    font-size: 2vw;
+}
+.content h3{
+    font-family:"InterL";
+    font-size:1.2vw;
+}
+.content p{
+    font-family: "InterL";
+    font-size: 1vw;
+}
+
+.flex-banner{
+    border-radius: 2vw;
+    display: flex;
+}
+
+.producttitle{
+    background-color: #FFD4EA;
+}
+
+.productdesc{
+    margin-top:2vw;
+    background-color: #FFD4EA;
+    margin-bottom: 5vw;
+}
+
+.content button{
+    border: 3px solid #FF0000;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.harga{
+    background-color: transparent;
+    margin-right: 4.5vw;
+    font-family: "InterR";
+    font-size: 1vw;
+}
+.flex-content{
+    display: flex;
+    background-color:transparent;
+    align-items:center;
+}
+.pref1 select{
+    font-family: "InterR";
+    min-width: 16vw;
+    min-height: 1.556969vw;
+    font-size: 0.7969vw;
+    border: none;
+    border-radius: 0.6969vw;
+    color: black;
+    padding-left: 0.6969vw;
+}
+.atas{
+    display: flex;
+}
+.samping{
+    font-family: "InterEB";
+    margin-left:  auto;
+    font-size: 2.396969vw;
+    margin-right: 2.6969vw;
+    color: black;
+}
+.selector{
+    margin-left: 2vw;
+}
+.selector h3{
+    font-family: "InterR";
+    font-size: 1vw;
+    margin-left:0.4vw
+}
+.selector button{
+    font-family: 'Inter';
+    /* margin:0 auto; */
+    display:block;
+    width: 10vw;
+    height: 1.69696vw;
+    margin-bottom: 4vw;
+    background-color:#ffffff;
+    color:rgb(255, 72, 102);
+    border: solid;
+    border-radius: 5vw;
+    border-color: rgb(255, 72, 102);
+    cursor: pointer;
+    transition: all 0.8s ease 0s;
+    font-size: 0.6969vw;
+}
+.cat{
+    margin-top: 1vw;
+    width: 10vw;
+    height: 1vw;
+    margin-bottom: 1vw;
+    font-family: "InterR";
+    border-radius: 0.6969vw;
+    border: none;
+    font-size: 0.7969vw;
+    padding-left: 0.3vw;
+    cursor: pointer;
+}
+.productoff{
+    display: none;
+}
+
+.banner2off{
+    display: none;
+}
+.selector button:hover{
+    background-color: rgb(255, 72, 102);
+    color: white;
+}
+#pr2{
+    background-color: #D5FFC1;
+}
+
+#pr3{
+    background-color: #D4E5FF;
+}
+
+#pr4{
+    background-color: #FFEEC1;
+}
+
+.banner2{
+    background-color: #FFD9C0;
+    display: flex;
+    border-radius: 2vw;
+    height: 25vw;
+    margin-top: 3vw;
+}
+
+.flex-new{
+    border-radius: 2vw;
+    margin: 1vw ;
+    width: 25vw;
+    padding: 4vw 0.1vw 2vw 4vw;
+    background-color: transparent;
+}
+
+.soap{
+    width: 25vw;  
+    height: auto;  
+    background-color: transparent;
+}
+
+.txtbanner-new1{
+    background-color: transparent;
+    font-family: "InterEB";
+    font-size: 2.5vw;
+    padding-top: 1vw;
+}
+.txtbanner-new3{
+    background-color: transparent;
+    font-family: "InterL";
+    padding-top: 0.01vw;
+    font-size: 1.6vw;
+}
+
+
+.txtbanner-new{
+    background-color: transparent;
+    font-family: "InterEB";
+    font-size: 3.5vw;
+    padding-top: 1vw;
+}
+.txtbanner-new2{
+    background-color:transparent;
+    font-family: "InterL";
+    padding-top: 0.01vw;
+    font-size: 1.9vw;
+}
+
+.flex-text{
+    width: 20vw;
+    padding-top: 6vw;
+    border-radius: 2vw;
+    background-color: transparent;
+}
+
+.productdesc2{
+    font-family: 'InterL';
+    margin-top:1vw;
+    background-color:transparent;
+    margin-bottom: 2vw;
+    font-size: 1.6969vw;
+}
+
+.pref1{
+    background-color:transparent;
+    margin-bottom: 2vw;
+}
+
+
+#pr5{
+    background-color: #FFD9C0;
+}
+
+.buy1{
+    border: 3px solid #FF0000;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+#pr6{
+    background-color: #FFAFAF;
+}
+
+
+
+#pr7{
+    color: white;
+    background-color: black;
+}
+.link{
+    color: blue;
+    text-decoration: underline  ;
+}
+
+#pr7-link{
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+}
+
+.btom-txt{
+    font-family: 'InterR';
+    text-align: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.buy2{
+    border: 3px solid #FF0000;
+    padding: 0.5vw;
+    font-family: 'InterEB';
+    color: white;
+    background-color: #FF0000;
+    border-radius: 1.3vw;
+    font-size: 1vw;
+    cursor: pointer;
+    float: right;
+}

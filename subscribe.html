@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="./css/subscribe.css">    
+</head>
+<body>
+    <script src="./js/subscribe.js"></script>
+    <header>
+        <a class="logo" href="./home.html">
+        <img  class="logo" src="./Image/whiteLogo.png" alt="logo"> 
+        <nav>
+            <link rel="stylesheet" href="./css/navbar.css">
+            <ul class="nav_link">
+                <li><a href="./home.html" >Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./promotions.html">Promotions</a></li>
+                <li><a class="on" href="./subscribe.html">Subscribe</a></li>
+            </ul>
+        </nav>         
+     </header>
+     <div class="centered">
+     <div><h1 class="bigtxt">Be the first to know</h1></div>
+     <div><h4 class="medtxt">Get latest update of new products</h4></div></div>
+     <div class="center">
+     <div class="form">
+        <form action="#">
+            <div class="form-details">
+                
+                <div class="input-form">
+                    <label class="details">Full Name:</label>
+                    <br>
+                    <input type="text" id="nama" class="fieldborder" required>
+                    </br>
+                    <h2 id="reminder1"></h2>
+                </div>
+                <div class="input-form">
+                    <label class="details">Email Address:</label>
+                    <br>
+                    <input type="text" id="email" class="fieldborder" required>
+                    </br>
+                    <h2 id="reminder2"></h2>
+                </div>
+                <div class="input-form">
+                    <label class="details">Phone Number:</label>
+                    <br>
+                    <input type="text" id="phone" class="fieldborder" required>
+                    </br>
+                    <h2 id="reminder3"></h2>
+                </div>
+                <div class="option-form">Preferences
+                    <br>
+                    <select name="Preferences" id="Preferences" class="pref" >
+                        <option value="zero">Select Preferences</option>
+                        <option value="bodyCare">Body Care</option>
+                        <option value="skinCare">Skin Care</option>
+                    </select>
+                    <h2 id="reminder4"></h2>
+                    <div class="category">
+                        <input type="checkbox" name="agree" class="dot" id="dot">
+                            <span class="agree-btn">I agree to receive a news lettter on my email</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="center"></div>
+     <a ><button onclick="submit()">Submit</button></a>
+     <!-- href="/NewPage/newPage.html" -->
+    </div>
+     <footer>
+        <link rel="stylesheet" href="./css/footer.css">
+        <p class="left">© 2022 VOrskins</p>
+        <p class="right">Beauty is the promise of happiness.</p>
+            
+    </footer>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+<body>
+    <script src="./js/product.js"></script>    
+    <header>
+        <a class="logo" href="./home.html">
+        <img  class="logo" src="./Image/whiteLogo.png" alt="logo"> 
+        <nav>
+            <link rel="stylesheet" href="./css/navbar.css">
+            <ul class="nav_link">
+                <li><a href="./home.html" >Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a class="on" href="./product.html">Products</a></li>
+                <li><a href="./promotions.html">Promotions</a></li>
+                <li><a href="./subscribe.html">Subscribe</a></li>
+            </ul>
+        </nav>
+     </header>
+
+        <div class="alldiv">
+            <div class="banner1">
+                <img src="./Image/Products/soap yellow.png" alt="banner1">
+                <div class="text">
+                    <h1 class="txtbanner1">New Arrival</h1>
+                    <h2 class="txtbanner2">Natural Artisan Soap</h2>
+                    <p class="txtbanner3">Almond, Charcoal and Lemongrass scented</p>
+                </div>
+            </div>
+            <div class="atas">
+            <div class="selector">
+                <h3>Categories</h3>
+                <select name="cat" id="cat" class="cat" >
+                    <option value="all">All Products</option>
+                    <option value="bd">Body Care</option>
+                    <option value="sc">Skin Care</option>
+                </select>
+                <button onclick="selection()">Apply</button>
+            </div>
+            <div class="samping" id="samping">All Products</div>
+        </div>
+            <div class="row1">
+                <div class="product" id="skin1">
+                    <h2 class="categories">Whitening Cream</h2>
+                    <div class="flex-banner">
+                        <img src="./Image/Products/4.jpg" alt="ultrawhite">
+                            <div class="content"> 
+                                <h2 class="producttitle">VOrskin ultra white</h2>
+                                <h3 class="productdesc">Brighten your skin and be more beautiful</h3>
+                                <div class="flex-content">
+                                    <p class="harga">Rp 55.000</p>
+                                <button class="buy" id="buy1" onclick="add('ultrawhite')">add to cart</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="product" id="skin2">
+                    <h2 class="categories">Aloevera Gel</h2>
+                    <div class="flex-banner" id="pr2">
+                        <img src="./Image/Products/6.jpg" alt="aloe">
+                            <div class="content" id="pr2"> 
+                                <h2 class="producttitle" id="pr2">VOrskin aloe</h2>
+                                <h3 class="productdesc" id="pr2">Soothing & Moisture your skin</h3>
+                                <div class="flex-content" id="pr2">
+                                    <p class="harga" id="pr2">Rp 65.000</p>
+                                <button class="buy" id="buy2" onclick="add('aloe')">add to cart</button>
+                                </div>
+                                
+                             </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="product" id="body">
+                    <h2 class="categories">Perfume</h2>
+                    <div class="flex-banner" id="pr3">
+                        <img src="./Image/Products/9.jpg" alt="aloe">
+                            <div class="content" id="pr3"> 
+                                <h2 class="producttitle" id="pr3">VOrskin rose</h2>
+                                <h3 class="productdesc" id="pr3">rose fragrance makes you 
+                                    be like in the rose field</h3>
+                                <div class="flex-content" id="pr3">
+                                    <p class="harga" id="pr3">Rp 125.000</p>
+                                <button class="buy" onclick="add('rose')" >add to cart</button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+                
+                <div class="product" id="skin3">
+                    <h2 class="categories">Moisturizer Cream</h2>
+                    <div class="flex-banner" id="pr4">
+                        <img src="./Image/Products/3.jpg" alt="ultrawhite">
+                            <div class="content" id="pr4"> 
+                                <h2 class="producttitle" id="pr4">VOrskin moist</h2>
+                                <h3 class="productdesc" id="pr4">moiturize your dry skin</h3>
+                                <div class="flex-content" id="pr4">
+                                    <p class="harga" id="pr4">Rp 35.000</p>
+                                <button class="buy" onclick="add('moist')">add to cart</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner2" id="pr5">
+                <div class="flex-new">
+                    <h1 class="txtbanner-new">Brand New</h1>
+                    <h2 class="txtbanner-new2">Natural Artisan Soap</h2>
+                </div>
+                <div class="text">
+                    <img class="soap" src="./Image/Products/soap yellow.png" alt="banner1">
+                </div>
+                <div class="flex-text">
+                    <h2 class="txtbanner-new2">VOrskin soap</h2>
+                    <h3 class="productdesc2">Cleanses your body and gives you 
+                        an amazing smell throughout the day</h3>
+                        <div class="pref1">
+                            <select name="Preferences" id="Preferences" class="pref" >
+                                <option value="zero">Select Scent</option>
+                                <option value="skincare1">Almond</option>
+                                <option value="skinCare2">Charcoal</option>
+                                <option value="skinCare3">Lemongrass</option>
+                            </select>
+                        </div>
+                        <div class="flex-content" id="pr5">
+                            <p class="harga" id="pr5">Rp 30.000</p>
+                        <button class="buy1" onclick="add('soap')">add to cart</button>
+                        </div>
+                </div>
+            </div>
+
+            <div class="banner2" id="pr6">
+                <div class="flex-new" id="pr6">
+                    <h1 class="txtbanner-new" id="pr6">Sun Block</h1>
+                    <h2 class="txtbanner-new2" id="pr6">New collection with more scent
+                        and better UV protection</h2>
+                        <a class="link" href="./promotions.html" id="pr6">Good deals available</a>
+                </div>
+                <div class="text" id="pr6">
+                    <img class="soap" src="./Image/Products/bundle discount.png" alt="banner1">
+                </div>
+                <div class="flex-text" id="pr6">
+                    <h2 class="txtbanner-new2" id="pr6">VOrskin antiUV</h2>
+                    <h3 class="productdesc2" id="pr6">Durable and water resistant
+                        to block UV light</h3>
+                        <div class="pref1" id="pr6">
+                            <select name="Preferences" id="Preferences" class="pref" >
+                                <option value="zero">Select SPF</option>
+                                <option value="skincare1">SPF 30</option>
+                                <option value="skinCare2">SPF 45</option>
+                                <option value="skinCare3">SPF 75</option>
+                            </select>
+                        </div>
+                        <div class="flex-content" id="pr6">
+                            <p class="harga" id="pr6">Rp 100.000</p>
+                        <button class="buy1" onclick="add('antiUV')">add to cart</button>
+                        </div>
+                </div>
+            </div>
+            <div class="banner2" id="pr7">
+                <div class="flex-new" id="pr7">
+                    <h1 class="txtbanner-new1" id="pr7">Ultimate hair set</h1>
+                    <h2 class="txtbanner-new3" id="pr7">Start to care your hair with our
+                        Ultimate hair set</h2>
+                        <a class="link" href="./promotions.html" id="pr7-link">Good deals available</a>
+                </div>
+                <div class="text" id="pr7">
+                    <img class="soap" src="./Image/Products/shampoo.png" alt="banner1">
+                </div>
+                <div class="flex-text" id="pr7">
+                    <h2 class="txtbanner-new2" id="pr7">VOrskin haircare</h2>
+                    <h3 class="productdesc2" id="pr7">Including 2 hair shampoo and
+                        soft conditioner </h3>
+                       
+                        <div class="flex-content" id="pr7">
+                            <p class="harga" id="pr7">Rp 150.000</p>
+                        <button class="buy1" onclick="add('haircare')">add to cart</button>
+                        </div>
+                </div>
+            </div>
+            <h3 class="btom-txt">Free Shipping to all over Indonesia</h3>
+            <a href="./checkoutnext.html"><button class="buy2" onclick="redirect()">Check Out</button></a>
+        </div>
+
+     <footer>
+        <link rel="stylesheet" href="./css/footer.css">
+        <p class="left">© 2022 VOrskins</p>
+        <p class="right">Beauty is the promise of happiness.</p>
+            
+    </footer>
+</body>
+</html>

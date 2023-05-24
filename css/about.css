@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+img.logo{
+    max-width: 130px;
+    
+}
+
+@font-face {
+    font-family: 'bakbak_oneregular';
+    src: url('./font/bakbakone-regular-webfont.woff2') format('woff2'),
+         url('./font/bakbakone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./font/Inter-Regular.woff2') format('woff2'),
+        url('./font/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.bigtxt{
+    text-align:center;
+    margin: auto;
+    margin-top:90px;
+    margin-bottom:90px;
+    font-size:4.696969vw;
+    color: #FF1C90;
+    font-family:"bakbak_oneregular",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.regtxt{
+    text-align:center;
+    font-size:1.29vw;
+    background: linear-gradient(150deg, rgba(255,28,144,1) 28%, rgba(243,0,248,1) 50%, rgba(70,226,248,1) 74%);   
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:"Inter",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.thanks{
+    text-align:center;
+    /* margin: auto ; */
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+    font-size:1.369vw;
+    color:black;
+    font-family:"Inter",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contact{
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 2vw;
+    font-size:.8vw;
+    background: black; 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:"Inter",BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+button{
+    font-family: 'Inter';
+    margin:0 auto;
+    display:block;
+    width: 7vw;
+    height: 2.6969vw;
+    margin-bottom: 4vw;
+    background-color:#ffffff;
+    color:rgb(255, 72, 102);
+    border: solid;
+    border-radius: 5vw;
+    border-color: rgb(255, 72, 102);
+    cursor: pointer;
+    transition: all 0.8s ease 0s;
+    font-size: 0.8969vw;
+}
+
+button:hover{
+    background-color: rgb(255, 72, 102);
+    color: white;
+}
